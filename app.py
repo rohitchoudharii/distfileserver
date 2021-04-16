@@ -224,10 +224,9 @@ def add_user():
     payload = request.json
     return oph.add_user(payload=payload)
 
-# @app.route('/merge',methods = ['POST'])
-# def merge_repo():
-#     pass
+@app.route('/delete-working-dir',methods=['POST'])
+def deleteWorkingDir():
+    root = request.form.get("root")
+    return oph.delete_working_dir(root = root)
 
 
-#if __name__ == "__main__":
-#    app.run(port = 8090,debug=True)
