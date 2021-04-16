@@ -12,7 +12,7 @@ json = FlaskJSON(app)
 
 @app.route('/')
 def index():
-    return json_response(msg = "test correct")
+    return json_response(msg = "test correct form the new version")
 
 @app.route('/save-file',methods = ['POST'])
 def save_file():
@@ -229,5 +229,5 @@ def add_user():
 #     pass
 
 
-if __name__ == "__main__":
-    app.run(port = 8090,debug=True)
+#if __name__ == "__main__":
+#    app.run(port = 8090,debug=True)
