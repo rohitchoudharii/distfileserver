@@ -7,6 +7,18 @@ import time
 import json
 import os
 
+def delete_working_dir(root):
+    fh = FHandler(dir_name = root)
+    fh.delete_folder_final()
+    if os.path.isdir(fh.current_dir()):
+        del fh
+        return "error deleting"
+
+    else:
+        del fh
+        return "folder deleted"
+
+
 def push_code(root,branch):
     fh = FHandler(dir_name = root)
     gh = GHandler(fh.current_dir())
