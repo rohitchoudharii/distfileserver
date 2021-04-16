@@ -4,7 +4,7 @@ import subprocess
 import pprint
 
 class FHandler():
-    base = "/home/rohit/nfsfiles/php"
+    base = "/home/ubuntu/nfsfiles/php"
     folder_path = ""
     root=""
     hierarchy = {}
