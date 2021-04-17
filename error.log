@@ -54368,3 +54368,1837 @@ Vary: Origin
 2021/04/17 12:14:07 [debug] 2973#2973: *464 reusable connection: 0
 2021/04/17 12:14:07 [debug] 2973#2973: *464 free: 0000000000000000
 2021/04/17 12:14:07 [debug] 2973#2973: *464 free: 0000555E53C7A860, unused: 136
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------109735675234726662682506304678"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Content-Length: 415"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http header done
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer del: 3: 27590487
+2021/04/17 12:36:30 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http cl:415 max:1048576
+2021/04/17 12:36:30 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:36:30 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:36:30 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:36:30 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:36:30 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:36:30 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:36:30 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:36:30 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:36:30 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:36:30 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:36:30 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http client request body preread 415
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37F, pos 0000555E53C7F37F, size: 415 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 epoll add event: fd:3 op:3 ev:80002005
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script var: "415"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------109735675234726662682506304678"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header:
+"POST /pull-server HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 415
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------109735675234726662682506304678
+Origin: http://localhost
+
+"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:36:30 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:36:30 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #468
+2021/04/17 12:36:30 [debug] 2973#2973: *467 connected
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:36:30 [debug] 2973#2973: *467 chain writer buf fl:0 s:412
+2021/04/17 12:36:30 [debug] 2973#2973: *467 chain writer buf fl:1 s:415
+2021/04/17 12:36:30 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:36:30 [debug] 2973#2973: *467 writev: 827 of 827
+2021/04/17 12:36:30 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer add: 13: 60000:27590487
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http finalize request: -4, "/pull-server?" a:1, c:2
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http run request: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream check client, write event:1, "/pull-server"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream request: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream request: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream request: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:36:30 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:36:30 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:36:30 GMT"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Content-Length: 119"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:36:30 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:36:30 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:36:30 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:36:30 GMT
+Content-Type: application/json
+Content-Length: 119
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:36:30 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:119
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe length: 119
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer del: 13: 27590487
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer add: 13: 60000:27591039
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream request: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream request: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe recv chain: 119
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 119 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe length: 119
+2021/04/17 12:36:30 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http output filter "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http copy filter: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 image filter
+2021/04/17 12:36:30 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http postpone filter "/pull-server?" 0000555E53CDE410
+2021/04/17 12:36:30 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 119 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:344
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http copy filter: 0 "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer: 13, old: 27591039, new: 27591039
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:36:30 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer del: 13: 27591039
+2021/04/17 12:36:30 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http output filter "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http copy filter: "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 image filter
+2021/04/17 12:36:30 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http postpone filter "/pull-server?" 00007FFFD3C6CC40
+2021/04/17 12:36:30 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 119 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:344
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 writev: 344 of 344
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http copy filter: 0 "/pull-server?"
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http finalize request: 0, "/pull-server?" a:1, c:1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http close request
+2021/04/17 12:36:30 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3246
+2021/04/17 12:36:30 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:36:30 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:36:30 [debug] 2973#2973: *467 tcp_nodelay
+2021/04/17 12:36:30 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:36:30 [debug] 2973#2973: *467 event timer add: 3: 65000:27596039
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:36:33 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:36:33 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 recv: fd:3 835 of 1024
+2021/04/17 12:36:33 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------4386064731016009461573605730"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Content-Length: 408"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http header done
+2021/04/17 12:36:33 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http cl:408 max:1048576
+2021/04/17 12:36:33 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:36:33 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:36:33 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:36:33 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:36:33 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:36:33 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:36:33 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:36:33 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:36:33 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:36:33 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:36:33 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http client request body preread 408
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37B, pos 0000555E53C7F37B, size: 408 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script var: "408"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------4386064731016009461573605730"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header:
+"POST /make-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 408
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------4386064731016009461573605730
+Origin: http://localhost
+
+"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE398
+2021/04/17 12:36:33 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:36:33 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:36:33 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #469
+2021/04/17 12:36:33 [debug] 2973#2973: *467 connected
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:36:33 [debug] 2973#2973: *467 chain writer buf fl:0 s:408
+2021/04/17 12:36:33 [debug] 2973#2973: *467 chain writer buf fl:1 s:408
+2021/04/17 12:36:33 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE3F8
+2021/04/17 12:36:33 [debug] 2973#2973: *467 writev: 816 of 816
+2021/04/17 12:36:33 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:36:33 [debug] 2973#2973: *467 event timer add: 13: 60000:27593795
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http finalize request: -4, "/make-file?" a:1, c:2
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http run request: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream check client, write event:1, "/make-file"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:36:33 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:36:33 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:36:33 GMT"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Content-Length: 138"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:36:33 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:36:33 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:36:33 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:36:33 GMT
+Content-Type: application/json
+Content-Length: 138
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:36:33 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:138
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe length: 138
+2021/04/17 12:36:33 [debug] 2973#2973: *467 event timer: 13, old: 27593795, new: 27593819
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe recv chain: 138
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 138 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe length: 138
+2021/04/17 12:36:33 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http output filter "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http copy filter: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 image filter
+2021/04/17 12:36:33 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http postpone filter "/make-file?" 0000555E53CDE408
+2021/04/17 12:36:33 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 138 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:363
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http copy filter: 0 "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:36:33 [debug] 2973#2973: *467 event timer: 13, old: 27593795, new: 27593819
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:36:33 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:36:33 [debug] 2973#2973: *467 event timer del: 13: 27593795
+2021/04/17 12:36:33 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http output filter "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http copy filter: "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 image filter
+2021/04/17 12:36:33 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http postpone filter "/make-file?" 00007FFFD3C6CC40
+2021/04/17 12:36:33 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 138 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:363
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 writev: 363 of 363
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http copy filter: 0 "/make-file?"
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http finalize request: 0, "/make-file?" a:1, c:1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http close request
+2021/04/17 12:36:33 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 24
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3248
+2021/04/17 12:36:33 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:36:33 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:36:33 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:36:33 [debug] 2973#2973: *467 event timer add: 3: 65000:27598819
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:36:39 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:36:39 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 recv: fd:3 837 of 1024
+2021/04/17 12:36:39 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------2818865898487447608820993738"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Content-Length: 408"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http header done
+2021/04/17 12:36:39 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http cl:408 max:1048576
+2021/04/17 12:36:39 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:36:39 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:36:39 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:36:39 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:36:39 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:36:39 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:36:39 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:36:39 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:36:39 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:36:39 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:36:39 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http client request body preread 408
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37D, pos 0000555E53C7F37D, size: 408 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script var: "408"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------2818865898487447608820993738"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header:
+"POST /delete-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 408
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------2818865898487447608820993738
+Origin: http://localhost
+
+"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:36:39 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:36:39 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #470
+2021/04/17 12:36:39 [debug] 2973#2973: *467 connected
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:36:39 [debug] 2973#2973: *467 chain writer buf fl:0 s:410
+2021/04/17 12:36:39 [debug] 2973#2973: *467 chain writer buf fl:1 s:408
+2021/04/17 12:36:39 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:36:39 [debug] 2973#2973: *467 writev: 818 of 818
+2021/04/17 12:36:39 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:36:39 [debug] 2973#2973: *467 event timer add: 13: 60000:27599695
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http finalize request: -4, "/delete-file?" a:1, c:2
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http run request: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream check client, write event:1, "/delete-file"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:36:39 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:36:39 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:36:39 GMT"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Content-Length: 127"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:36:39 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:36:39 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:36:39 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:36:39 GMT
+Content-Type: application/json
+Content-Length: 127
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:36:39 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:127
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe length: 127
+2021/04/17 12:36:39 [debug] 2973#2973: *467 event timer: 13, old: 27599695, new: 27599719
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe recv chain: 127
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 127 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe length: 127
+2021/04/17 12:36:39 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 image filter
+2021/04/17 12:36:39 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 0000555E53CDE410
+2021/04/17 12:36:39 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 127 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:352
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:36:39 [debug] 2973#2973: *467 event timer: 13, old: 27599695, new: 27599719
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:36:39 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:36:39 [debug] 2973#2973: *467 event timer del: 13: 27599695
+2021/04/17 12:36:39 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 image filter
+2021/04/17 12:36:39 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 00007FFFD3C6CC40
+2021/04/17 12:36:39 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 127 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:352
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 writev: 352 of 352
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http finalize request: 0, "/delete-file?" a:1, c:1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http close request
+2021/04/17 12:36:39 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3246
+2021/04/17 12:36:39 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:36:39 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:36:39 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:36:39 [debug] 2973#2973: *467 event timer add: 3: 65000:27604719
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:03 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:03 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 recv: fd:3 843 of 1024
+2021/04/17 12:37:03 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------179712259711895058783926156909"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Content-Length: 412"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:03 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http cl:412 max:1048576
+2021/04/17 12:37:03 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:03 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:03 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:03 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:03 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:03 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:03 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:03 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:03 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:03 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:03 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http client request body preread 412
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37F, pos 0000555E53C7F37F, size: 412 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script var: "412"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------179712259711895058783926156909"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header:
+"POST /delete-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 412
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------179712259711895058783926156909
+Origin: http://localhost
+
+"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:03 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:03 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #471
+2021/04/17 12:37:03 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:03 [debug] 2973#2973: *467 chain writer buf fl:0 s:412
+2021/04/17 12:37:03 [debug] 2973#2973: *467 chain writer buf fl:1 s:412
+2021/04/17 12:37:03 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:03 [debug] 2973#2973: *467 writev: 824 of 824
+2021/04/17 12:37:03 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:03 [debug] 2973#2973: *467 event timer add: 13: 60000:27624038
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http finalize request: -4, "/delete-file?" a:1, c:2
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http run request: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream check client, write event:1, "/delete-file"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:03 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:03 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:03 GMT"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Content-Length: 116"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:03 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:03 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:03 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:03 GMT
+Content-Type: application/json
+Content-Length: 116
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:03 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:116
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe length: 116
+2021/04/17 12:37:03 [debug] 2973#2973: *467 event timer: 13, old: 27624038, new: 27624058
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe recv chain: 116
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe length: 116
+2021/04/17 12:37:03 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:03 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 0000555E53CDE410
+2021/04/17 12:37:03 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:341
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:03 [debug] 2973#2973: *467 event timer: 13, old: 27624038, new: 27624058
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:03 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:03 [debug] 2973#2973: *467 event timer del: 13: 27624038
+2021/04/17 12:37:03 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:03 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 00007FFFD3C6CC40
+2021/04/17 12:37:03 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:341
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 writev: 341 of 341
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http finalize request: 0, "/delete-file?" a:1, c:1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:03 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3246
+2021/04/17 12:37:03 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:03 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:03 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:03 [debug] 2973#2973: *467 event timer add: 3: 65000:27629058
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:06 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:06 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:06 [debug] 2973#2973: *467 recv: fd:3 840 of 1024
+2021/04/17 12:37:06 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------10715978323738779652280257373"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Content-Length: 412"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:06 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:06 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http cl:412 max:1048576
+2021/04/17 12:37:06 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:06 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:06 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:06 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:06 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:06 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:06 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:06 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:06 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:06 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:06 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http client request body preread 412
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37C, pos 0000555E53C7F37C, size: 412 file: 0, size: 0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script var: "412"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------10715978323738779652280257373"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http proxy header:
+"POST /make-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 412
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------10715978323738779652280257373
+Origin: http://localhost
+
+"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:06 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:06 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:06 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #472
+2021/04/17 12:37:06 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:06 [debug] 2973#2973: *467 chain writer buf fl:0 s:409
+2021/04/17 12:37:06 [debug] 2973#2973: *467 chain writer buf fl:1 s:412
+2021/04/17 12:37:06 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:06 [debug] 2973#2973: *467 writev: 821 of 821
+2021/04/17 12:37:06 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:06 [debug] 2973#2973: *467 event timer add: 13: 60000:27627354
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http finalize request: -4, "/make-file?" a:1, c:2
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http run request: "/make-file?"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream check client, write event:1, "/make-file"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:06 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:07 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:07 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:07 GMT"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Content-Length: 127"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:07 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:07 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:07 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:07 GMT
+Content-Type: application/json
+Content-Length: 127
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:07 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:127
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe length: 127
+2021/04/17 12:37:07 [debug] 2973#2973: *467 event timer: 13, old: 27627354, new: 27627382
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe recv chain: 127
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 127 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe length: 127
+2021/04/17 12:37:07 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http output filter "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http copy filter: "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:07 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http postpone filter "/make-file?" 0000555E53CDE410
+2021/04/17 12:37:07 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 127 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:352
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http copy filter: 0 "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:07 [debug] 2973#2973: *467 event timer: 13, old: 27627354, new: 27627382
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:07 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:07 [debug] 2973#2973: *467 event timer del: 13: 27627354
+2021/04/17 12:37:07 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http output filter "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http copy filter: "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:07 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http postpone filter "/make-file?" 00007FFFD3C6CC40
+2021/04/17 12:37:07 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 127 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:352
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 writev: 352 of 352
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http copy filter: 0 "/make-file?"
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http finalize request: 0, "/make-file?" a:1, c:1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:07 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3248
+2021/04/17 12:37:07 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:07 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:07 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:07 [debug] 2973#2973: *467 event timer add: 3: 65000:27632382
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:12 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:12 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 recv: fd:3 847 of 1024
+2021/04/17 12:37:12 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------101201282620692638993112587883"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Content-Length: 416"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:12 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http cl:416 max:1048576
+2021/04/17 12:37:12 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:12 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:12 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:12 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:12 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:12 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:12 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:12 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:12 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:12 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:12 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http client request body preread 416
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37F, pos 0000555E53C7F37F, size: 416 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script var: "416"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------101201282620692638993112587883"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header:
+"POST /delete-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 416
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------101201282620692638993112587883
+Origin: http://localhost
+
+"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:12 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:12 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #473
+2021/04/17 12:37:12 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:12 [debug] 2973#2973: *467 chain writer buf fl:0 s:412
+2021/04/17 12:37:12 [debug] 2973#2973: *467 chain writer buf fl:1 s:416
+2021/04/17 12:37:12 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:12 [debug] 2973#2973: *467 writev: 828 of 828
+2021/04/17 12:37:12 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:12 [debug] 2973#2973: *467 event timer add: 13: 60000:27632414
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http finalize request: -4, "/delete-file?" a:1, c:2
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http run request: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream check client, write event:1, "/delete-file"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:12 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:12 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:12 GMT"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Content-Length: 116"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:12 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:12 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:12 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:12 GMT
+Content-Type: application/json
+Content-Length: 116
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:12 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:116
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe length: 116
+2021/04/17 12:37:12 [debug] 2973#2973: *467 event timer: 13, old: 27632414, new: 27632430
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe recv chain: 116
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe length: 116
+2021/04/17 12:37:12 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:12 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 0000555E53CDE410
+2021/04/17 12:37:12 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:341
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:12 [debug] 2973#2973: *467 event timer: 13, old: 27632414, new: 27632430
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:12 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:12 [debug] 2973#2973: *467 event timer del: 13: 27632414
+2021/04/17 12:37:12 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:12 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 00007FFFD3C6CC40
+2021/04/17 12:37:12 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:341
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 writev: 341 of 341
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http finalize request: 0, "/delete-file?" a:1, c:1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:12 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3246
+2021/04/17 12:37:12 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:12 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:12 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:12 [debug] 2973#2973: *467 event timer add: 3: 65000:27637430
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:22 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:22 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 recv: fd:3 841 of 1024
+2021/04/17 12:37:22 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------366863185337683715983234005368"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Content-Length: 413"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:22 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http cl:413 max:1048576
+2021/04/17 12:37:22 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:22 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:22 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:22 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:22 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:22 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:22 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:22 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:22 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:22 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:22 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http client request body preread 413
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37C, pos 0000555E53C7F37C, size: 413 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script var: "413"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------366863185337683715983234005368"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header:
+"POST /make-dir HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 413
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------366863185337683715983234005368
+Origin: http://localhost
+
+"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:22 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:22 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #474
+2021/04/17 12:37:22 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:22 [debug] 2973#2973: *467 chain writer buf fl:0 s:409
+2021/04/17 12:37:22 [debug] 2973#2973: *467 chain writer buf fl:1 s:413
+2021/04/17 12:37:22 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:22 [debug] 2973#2973: *467 writev: 822 of 822
+2021/04/17 12:37:22 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:22 [debug] 2973#2973: *467 event timer add: 13: 60000:27642586
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http finalize request: -4, "/make-dir?" a:1, c:2
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http run request: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream check client, write event:1, "/make-dir"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream request: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream request: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream request: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:22 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:22 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:22 GMT"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Content-Length: 148"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:22 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:22 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:22 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:22 GMT
+Content-Type: application/json
+Content-Length: 148
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:22 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:148
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe length: 148
+2021/04/17 12:37:22 [debug] 2973#2973: *467 event timer: 13, old: 27642586, new: 27642618
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream request: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream request: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe recv chain: 148
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 148 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe length: 148
+2021/04/17 12:37:22 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http output filter "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http copy filter: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:22 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http postpone filter "/make-dir?" 0000555E53CDE410
+2021/04/17 12:37:22 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 148 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:373
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http copy filter: 0 "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:22 [debug] 2973#2973: *467 event timer: 13, old: 27642586, new: 27642618
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:22 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:22 [debug] 2973#2973: *467 event timer del: 13: 27642586
+2021/04/17 12:37:22 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http output filter "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http copy filter: "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:22 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http postpone filter "/make-dir?" 00007FFFD3C6CC40
+2021/04/17 12:37:22 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 148 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:373
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 writev: 373 of 373
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http copy filter: 0 "/make-dir?"
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http finalize request: 0, "/make-dir?" a:1, c:1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:22 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3249
+2021/04/17 12:37:22 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:22 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:22 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:22 [debug] 2973#2973: *467 event timer add: 3: 65000:27647618
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:27 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:27 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 recv: fd:3 845 of 1024
+2021/04/17 12:37:27 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------11581760838406540802568889240"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Content-Length: 417"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:27 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http cl:417 max:1048576
+2021/04/17 12:37:27 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:27 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:27 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:27 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:27 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:27 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:27 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:27 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:27 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:27 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:27 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http client request body preread 417
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37C, pos 0000555E53C7F37C, size: 417 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script var: "417"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------11581760838406540802568889240"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header:
+"POST /make-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 417
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------11581760838406540802568889240
+Origin: http://localhost
+
+"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:27 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:27 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #475
+2021/04/17 12:37:27 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:27 [debug] 2973#2973: *467 chain writer buf fl:0 s:409
+2021/04/17 12:37:27 [debug] 2973#2973: *467 chain writer buf fl:1 s:417
+2021/04/17 12:37:27 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:27 [debug] 2973#2973: *467 writev: 826 of 826
+2021/04/17 12:37:27 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:27 [debug] 2973#2973: *467 event timer add: 13: 60000:27647485
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http finalize request: -4, "/make-file?" a:1, c:2
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http run request: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream check client, write event:1, "/make-file"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:27 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:27 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:27 GMT"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Content-Length: 159"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:27 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:27 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:27 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:27 GMT
+Content-Type: application/json
+Content-Length: 159
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:27 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:159
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe length: 159
+2021/04/17 12:37:27 [debug] 2973#2973: *467 event timer: 13, old: 27647485, new: 27647521
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream request: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe recv chain: 159
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 159 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe length: 159
+2021/04/17 12:37:27 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http output filter "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http copy filter: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:27 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http postpone filter "/make-file?" 0000555E53CDE410
+2021/04/17 12:37:27 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 159 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:384
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http copy filter: 0 "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:27 [debug] 2973#2973: *467 event timer: 13, old: 27647485, new: 27647521
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:27 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:27 [debug] 2973#2973: *467 event timer del: 13: 27647485
+2021/04/17 12:37:27 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http output filter "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http copy filter: "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:27 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http postpone filter "/make-file?" 00007FFFD3C6CC40
+2021/04/17 12:37:27 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 159 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:384
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 writev: 384 of 384
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http copy filter: 0 "/make-file?"
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http finalize request: 0, "/make-file?" a:1, c:1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:27 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3248
+2021/04/17 12:37:27 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:27 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:27 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:27 [debug] 2973#2973: *467 event timer add: 3: 65000:27652521
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:31 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:31 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 recv: fd:3 852 of 1024
+2021/04/17 12:37:31 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------127777596738956449361808010092"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Content-Length: 421"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:31 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http cl:421 max:1048576
+2021/04/17 12:37:31 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:31 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:31 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:31 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:31 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:31 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:31 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:31 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:31 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:31 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:31 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http client request body preread 421
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37F, pos 0000555E53C7F37F, size: 421 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script var: "421"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------127777596738956449361808010092"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header:
+"POST /delete-file HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 421
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------127777596738956449361808010092
+Origin: http://localhost
+
+"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:31 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:31 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #476
+2021/04/17 12:37:31 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:31 [debug] 2973#2973: *467 chain writer buf fl:0 s:412
+2021/04/17 12:37:31 [debug] 2973#2973: *467 chain writer buf fl:1 s:421
+2021/04/17 12:37:31 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:31 [debug] 2973#2973: *467 writev: 833 of 833
+2021/04/17 12:37:31 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:31 [debug] 2973#2973: *467 event timer add: 13: 60000:27651661
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http finalize request: -4, "/delete-file?" a:1, c:2
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http run request: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream check client, write event:1, "/delete-file"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:31 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:31 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:31 GMT"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Content-Length: 148"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:31 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:31 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:31 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:31 GMT
+Content-Type: application/json
+Content-Length: 148
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:31 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:148
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe length: 148
+2021/04/17 12:37:31 [debug] 2973#2973: *467 event timer: 13, old: 27651661, new: 27651689
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream request: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe recv chain: 148
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 148 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe length: 148
+2021/04/17 12:37:31 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:31 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 0000555E53CDE410
+2021/04/17 12:37:31 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 148 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:373
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:31 [debug] 2973#2973: *467 event timer: 13, old: 27651661, new: 27651689
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:31 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:31 [debug] 2973#2973: *467 event timer del: 13: 27651661
+2021/04/17 12:37:31 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http output filter "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http copy filter: "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:31 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http postpone filter "/delete-file?" 00007FFFD3C6CC40
+2021/04/17 12:37:31 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 148 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:373
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 writev: 373 of 373
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http copy filter: 0 "/delete-file?"
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http finalize request: 0, "/delete-file?" a:1, c:1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:31 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3246
+2021/04/17 12:37:31 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:31 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:31 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:31 [debug] 2973#2973: *467 event timer add: 3: 65000:27656689
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:37:40 [debug] 2973#2973: *467 malloc: 0000555E53C7F1D0:1024
+2021/04/17 12:37:40 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 recv: fd:3 836 of 1024
+2021/04/17 12:37:40 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 posix_memalign: 0000555E53CC9B50:4096 @16
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Host: fileserver.dwspace.tech"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Accept: */*"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Referer: http://localhost/"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Content-Type: multipart/form-data; boundary=---------------------------30208715821641279816281495391"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Origin: http://localhost"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Content-Length: 407"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header: "Connection: keep-alive"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http header done
+2021/04/17 12:37:40 [debug] 2973#2973: *467 generic phase: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 rewrite phase: 1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 test location: "/"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 using configuration "/"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http cl:407 max:1048576
+2021/04/17 12:37:40 [debug] 2973#2973: *467 rewrite phase: 3
+2021/04/17 12:37:40 [debug] 2973#2973: *467 post rewrite phase: 4
+2021/04/17 12:37:40 [debug] 2973#2973: *467 generic phase: 5
+2021/04/17 12:37:40 [debug] 2973#2973: *467 generic phase: 6
+2021/04/17 12:37:40 [debug] 2973#2973: *467 generic phase: 7
+2021/04/17 12:37:40 [debug] 2973#2973: *467 access phase: 8
+2021/04/17 12:37:40 [debug] 2973#2973: *467 access phase: 9
+2021/04/17 12:37:40 [debug] 2973#2973: *467 access phase: 10
+2021/04/17 12:37:40 [debug] 2973#2973: *467 post access phase: 11
+2021/04/17 12:37:40 [debug] 2973#2973: *467 generic phase: 12
+2021/04/17 12:37:40 [debug] 2973#2973: *467 generic phase: 13
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http client request body preread 407
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http request body content length filter
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http body new buf t:1 f:0 0000555E53C7F37D, pos 0000555E53C7F37D, size: 407 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http init upstream, client timer: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script copy: "Host"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script var: "localhost"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script copy: "Connection"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script copy: "close"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script copy: "Content-Length"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script var: "407"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http script copy: ""
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Accept: */*"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Accept-Language: en-US,en;q=0.5"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Accept-Encoding: gzip, deflate"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Referer: http://localhost/"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Content-Type: multipart/form-data; boundary=---------------------------30208715821641279816281495391"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Origin: http://localhost"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header:
+"POST /delete-dir HTTP/1.0
+Host: localhost
+Connection: close
+Content-Length: 407
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost/
+Content-Type: multipart/form-data; boundary=---------------------------30208715821641279816281495391
+Origin: http://localhost
+
+"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http cleanup add: 0000555E53CDE3A0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 get rr peer, try: 1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 stream socket 13
+2021/04/17 12:37:40 [debug] 2973#2973: *467 epoll add connection: fd:13 ev:80002005
+2021/04/17 12:37:40 [debug] 2973#2973: *467 connect to unix:/home/ubuntu/server/server.sock, fd:13 #477
+2021/04/17 12:37:40 [debug] 2973#2973: *467 connected
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream connect: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 posix_memalign: 0000555E53CCAB60:128 @16
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream send request
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream send request body
+2021/04/17 12:37:40 [debug] 2973#2973: *467 chain writer buf fl:0 s:410
+2021/04/17 12:37:40 [debug] 2973#2973: *467 chain writer buf fl:1 s:407
+2021/04/17 12:37:40 [debug] 2973#2973: *467 chain writer in: 0000555E53CDE400
+2021/04/17 12:37:40 [debug] 2973#2973: *467 writev: 817 of 817
+2021/04/17 12:37:40 [debug] 2973#2973: *467 chain writer out: 0000000000000000
+2021/04/17 12:37:40 [debug] 2973#2973: *467 event timer add: 13: 60000:27661185
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http finalize request: -4, "/delete-dir?" a:1, c:2
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http request count:2 blk:0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http run request: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream check client, write event:1, "/delete-dir"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream request: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream request: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream request: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream process header
+2021/04/17 12:37:40 [debug] 2973#2973: *467 malloc: 0000555E53C9ECE0:4096
+2021/04/17 12:37:40 [debug] 2973#2973: *467 recv: eof:0, avail:1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 recv: fd:13 214 of 4096
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy status 200 "200 OK"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Server: gunicorn/19.7.1"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Date: Sat, 17 Apr 2021 12:37:40 GMT"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Connection: close"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Content-Type: application/json"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Content-Length: 116"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Access-Control-Allow-Origin: http://localhost"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header: "Vary: Origin"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy header done
+2021/04/17 12:37:40 [debug] 2973#2973: *467 xslt filter header
+2021/04/17 12:37:40 [debug] 2973#2973: *467 posix_memalign: 0000555E53C9FCF0:4096 @16
+2021/04/17 12:37:40 [debug] 2973#2973: *467 HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 17 Apr 2021 12:37:40 GMT
+Content-Type: application/json
+Content-Length: 116
+Connection: keep-alive
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+
+2021/04/17 12:37:40 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:225
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http cacheable: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http proxy filter init s:200 h:0 c:0 l:116
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe read upstream: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe preread: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 0 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe length: 116
+2021/04/17 12:37:40 [debug] 2973#2973: *467 event timer: 13, old: 27661185, new: 27661209
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream request: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream dummy handler
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream request: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream process upstream
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe read upstream: 1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 readv: eof:0, avail:1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 readv: 1, last:3882
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe recv chain: 116
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe buf free s:0 t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe length: 116
+2021/04/17 12:37:40 [debug] 2973#2973: *467 input buf #0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe write downstream: 1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe write downstream flush in
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http output filter "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http copy filter: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:40 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http postpone filter "/delete-dir?" 0000555E53CDE410
+2021/04/17 12:37:40 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 write new buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http write filter: l:0 f:0 s:341
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http copy filter: 0 "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 pipe write downstream done
+2021/04/17 12:37:40 [debug] 2973#2973: *467 event timer: 13, old: 27661185, new: 27661209
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream exit: 0000000000000000
+2021/04/17 12:37:40 [debug] 2973#2973: *467 finalize http upstream request: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 finalize http proxy request
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free rr peer 1 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 close http upstream connection: 13
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free: 0000555E53CCAB60, unused: 48
+2021/04/17 12:37:40 [debug] 2973#2973: *467 event timer del: 13: 27661185
+2021/04/17 12:37:40 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http upstream temp fd: -1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http output filter "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http copy filter: "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 image filter
+2021/04/17 12:37:40 [debug] 2973#2973: *467 xslt filter body
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http postpone filter "/delete-dir?" 00007FFFD3C6CC40
+2021/04/17 12:37:40 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9FD10, pos 0000555E53C9FD10, size: 225 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 write old buf t:1 f:0 0000555E53C9ECE0, pos 0000555E53C9EDB6, size: 116 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http write filter: l:1 f:0 s:341
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http write filter limit 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 writev: 341 of 341
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http write filter 0000000000000000
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http copy filter: 0 "/delete-dir?"
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http finalize request: 0, "/delete-dir?" a:1, c:1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 set http keepalive handler
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http close request
+2021/04/17 12:37:40 [debug] 2973#2973: *467 http log handler
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free: 0000555E53C9ECE0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free: 0000555E53CC9B50, unused: 4
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free: 0000555E53CDD850, unused: 16
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free: 0000555E53C9FCF0, unused: 3247
+2021/04/17 12:37:40 [debug] 2973#2973: *467 free: 0000555E53C7F1D0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 hc free: 0000000000000000
+2021/04/17 12:37:40 [debug] 2973#2973: *467 hc busy: 0000000000000000 0
+2021/04/17 12:37:40 [debug] 2973#2973: *467 reusable connection: 1
+2021/04/17 12:37:40 [debug] 2973#2973: *467 event timer add: 3: 65000:27666209
+2021/04/17 12:38:45 [debug] 2973#2973: *467 event timer del: 3: 27666209
+2021/04/17 12:38:45 [debug] 2973#2973: *467 http keepalive handler
+2021/04/17 12:38:45 [debug] 2973#2973: *467 close http connection: 3
+2021/04/17 12:38:45 [debug] 2973#2973: *467 reusable connection: 0
+2021/04/17 12:38:45 [debug] 2973#2973: *467 free: 0000000000000000
+2021/04/17 12:38:45 [debug] 2973#2973: *467 free: 0000555E53C7A860, unused: 136
