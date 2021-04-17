@@ -1,3 +1,4 @@
+
 import os
 import shutil
 import subprocess
@@ -89,13 +90,20 @@ class FHandler():
         print(dirname)
         for i in dirname.split("/"):
             p = os.path.join(p,i)
-        
-        shutil.rmtree(p)
+        try:
+            shutil.rmtree(p)
+            return 0
+        except:
+            return 1
     def delete_file(self,filename):
         p = self.folder_path
         for i in filename.split("/"):
             p = os.path.join(p,i)
-        os.remove(p)
+        try:
+            os.remove(p)
+            return 0
+        except:
+            return 1
     def delete_folder_final(self):
         '''
         This will be used to delete the file

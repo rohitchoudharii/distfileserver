@@ -148,8 +148,8 @@ def make_repo(payload):
     projectname = payload["projectname"] #project name in string
     users = payload["users"]  #users in the form of array
     users.append("dev")
-    if not os.path.isdir("/home/rohit/nfsfiles/git/"+projectname):
-        ps = subprocess.run(args = "git init --bare {projectname}.git".format(projectname = projectname), capture_output=True,shell=True,text=True,cwd="/home/rohit/nfsfiles/git")
+    if not os.path.isdir("/home/ubuntu/nfsfiles/git/"+projectname+".git"):
+        ps = subprocess.run(args = "git init --bare {projectname}.git".format(projectname = projectname), capture_output=True,shell=True,text=True,cwd="/home/ubuntu/nfsfiles/git")
         print(ps)
         fh = FHandler("temp_"+projectname, make_dir=True)
         print("from the function: "+fh.current_dir())
@@ -173,14 +173,14 @@ def make_repo(payload):
 
 def delete_dir(root,path,dirname):
     fh = FHandler(root)
-    fh.delete_dir(dirname = dirname)
-    return fh.get_hierarchy()
+    error = fh.delete_dir(dirname = dirname)
+    return fh.get_hierarchy(),error
 
 
 def delete_file(root,path,filename):
     fh = FHandler(root)
-    fh.delete_file(filename = filename)
-    return fh.get_hierarchy()
+    error = fh.delete_file(filename = filename)
+    return fh.get_hierarchy(),error
 
 def get_hir(root):
     fh = FHandler(dir_name=root)

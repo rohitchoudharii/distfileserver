@@ -2,12 +2,12 @@
 from flask import Flask, request
 from flask_json import FlaskJSON,JsonError, json_response, as_json
 import operationHandler as oph
-# from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 json = FlaskJSON(app)
-# cors = CORS(app)
-# app.config['CORS_HEADERS'] = 'application/json'
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'application/json'
 
 
 @app.route('/')
@@ -127,8 +127,8 @@ def del_dir():
     root = request.form.get("root")
     path = request.form.get("path")
     dirname = request.form.get("dirname")
-    hir = oph.delete_dir(root = root, path=path, dirname = dirname)
-    return json_response(hir = hir)
+    hir,error = oph.delete_dir(root = root, path=path, dirname = dirname)
+    return json_response(hir = hir,error=error)
 
 @app.route('/delete-file',methods = ['POST'])
 def del_file():
@@ -145,8 +145,8 @@ def del_file():
     root = request.form.get("root")
     path = request.form.get("path")
     filename = request.form.get("filename")
-    hir = oph.delete_file(root = root, path=path, filename = filename)
-    return json_response(hir = hir)
+    hir,error = oph.delete_file(root = root, path=path, filename = filename)
+    return json_response(hir = hir,error=error)
 
 
 @app.route('/make-dir',methods = ['POST'])
@@ -230,3 +230,5 @@ def deleteWorkingDir():
     return oph.delete_working_dir(root = root)
 
 
+#if __name__ =="__main__":
+#    app.run(host="0.0.0.0",port=8000)
