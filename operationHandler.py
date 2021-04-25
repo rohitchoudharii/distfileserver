@@ -23,9 +23,10 @@ def push_code(root,branch):
     fh = FHandler(dir_name = root)
     gh = GHandler(fh.current_dir())
     msg,code = gh.git_push(branch=branch)
-    if "fatal" in msg:
+    if "fatal" in msg or code == True:
+
         return "Error saving your file to the server",1
-    return "successfull saving all the files , now you can leave the editor",code
+    return "successfull saving all the files , now you can leave the editor",0
 
 
 def commit(msg,branch,root):
@@ -59,7 +60,15 @@ def pull_editor(root,project_name,branch):
     gh.git_remote_add(project_name = project_name)
     #gh.add_ssh()
     print(fh.current_dir())
-    gh.git_pull_server(branch = branch)
+    #gh.git_pull_server(branch = branch)
+    msg,code = gh.git_fetch_branch(branch=branch)
+    if code:
+        print("error")
+    
+    msg,code = gh.git_checkout(branch=branch)
+    if code:
+        print("error")
+    
     #msg, flag = gh.execute()
     del gh
     del fh

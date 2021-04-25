@@ -10,8 +10,8 @@ class FHandler():
     root=""
     hierarchy = {}
     dir_name = ""
-    
     hir_ar = []
+    
     def __init__(self,dir_name,make_dir=False):
         self.folder_path = "/home/ubuntu/nfsfiles/php"
         self.hierarchy = {"files":[]}

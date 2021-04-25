@@ -11,7 +11,7 @@ class GHandler():
     def git_commit(self,msg):
         return  self.execute(command = 'git commit -m "{ms}"'.format(ms=msg), output = "nothing to commit")
     def git_push(self,branch):
-        return self.execute('git push origin {brch}'.format(brch=branch), output = "")
+        return self.execute('git push origin {brch}'.format(brch=branch), output = "error")
     def git_clone(self,server,project_name,branch):
         self.cmd.append('git clone -b {brch} {server}:{project}.git'.format(brch=branch,server=server,project=project_name))
     def git_init(self):
@@ -40,6 +40,15 @@ class GHandler():
                 return (ps.stderr,True)
         else:
             return (ps.stdout,False)
+    
+    def git_fetch_branch(self, branch):
+        return self.execute(command = "git fetch origin {branch}".format(branch=branch),output="fatal")
+    
+    def git_checkout(self, branch):
+        return self.execute(command = "git checkout {branch}".format(branch=branch),output="error")
+
+    
+    
     # def execute2(self,command1,cwd,input1 = None,output=None):
     #     print(command1)
     #     ps = subprocess.run(args = ["start-ssh-agent.cmd",command1],text=True,shell = True,cwd=cwd)
